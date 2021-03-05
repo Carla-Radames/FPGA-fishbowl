@@ -1,0 +1,27 @@
+//应当有一个高频clk捕获和一个内部的小时钟 自定义编码长度 默认发送0 发出信号开始时刻先发送1
+//统一起见也给个rst_n?这样方便定义初始状态……
+//input [3:0] instruct 4位编码的按钮信息 这里就不需要一个data_vld了
+module irda_out(
+	input clk,
+	input rst_n,
+	input [3:0] Iin,
+	output reg Iout
+	);
+parameter DIV=100000;//计数满100000 传输1bit
+	
+reg   [3:0]       tx_data_tmp;
+reg               flag_add   ;
+reg   [16:0]      cnt0       ;
+wire              add_cnt0   ;
+wire              end_cnt0   ;
+
+reg   [ 3:0]      cnt1       ;//4位数据
+wire              add_cnt1   ;
+wire              end_cnt1   ;
+
+wire  [ 9:0]      data       ;
+
+always@(posedge clk or negedge rst_n)
+	begin
+		
+	end

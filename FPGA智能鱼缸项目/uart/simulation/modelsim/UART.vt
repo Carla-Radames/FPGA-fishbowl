@@ -1,0 +1,52 @@
+`timescale 1 ps/ 1 ps
+module UART_vlg_tst();
+reg clk;
+reg din;
+reg rst_n;                                             
+wire dout;
+wire rdy;
+                        
+UART i1 ( 
+	.clk(clk),
+	.din(din),
+	.dout(dout),
+	.rdy(rdy),
+	.rst_n(rst_n)
+);
+
+initial                                                
+begin                                                  
+	clk<=0;
+	rst_n<=0;
+	din<=1;
+end 
+
+initial                                                
+begin                                                  
+	#100 rst_n<=1;
+end   
+
+initial                                                                
+begin                                                  
+	#100 din<=0;	//校验码//3个寄存器的设计应该可以回避冲突 100=50x2x1
+						//由于采样的数据量足够大 也可以忽略竞争冒险
+	#100 din<=1;
+	#100 din<=0;
+	#100 din<=1;
+	#100 din<=1;
+	#100 din<=0;
+	#100 din<=1;
+	#100 din<=1;
+	#100 din<=0;
+	
+	#100 din<=1;	//最终应当重新拉高
+end  
+                                                 
+always                                                                
+begin                                                  
+	#1 clk<=~clk;
+end        
+
+                                            
+endmodule
+

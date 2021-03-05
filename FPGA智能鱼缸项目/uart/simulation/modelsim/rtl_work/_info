@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dqx18/Desktop/uart/simulation/modelsim
+T_opt
+!s110 1599921800
+VJ2Y?lUHzFc?BDOm<KPhJa2
+04 15 4 work uart_rx_vlg_tst fast 0
+=1-7470fd4e7fcd-5f5cde88-3e-4620
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+vuart_rx
+Z1 !s110 1599921798
+!i10b 1
+!s100 NPAaUcV=9ece2L]aCHJUa3
+I_CjEPNS7Z]QdFOFjSlILW1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1599916335
+8C:/Users/dqx18/Desktop/uart/uart_rx.v
+FC:/Users/dqx18/Desktop/uart/uart_rx.v
+L0 2
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1599921798.588000
+!s107 C:/Users/dqx18/Desktop/uart/uart_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dqx18/Desktop/uart|C:/Users/dqx18/Desktop/uart/uart_rx.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+C:/Users/dqx18/Desktop/uart -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vuart_rx_vlg_tst
+R1
+!i10b 1
+!s100 bQ>PdDXjl1g7IAMGS<a;d1
+I5O7b5`0=3ALfR5aBIQMZY2
+R2
+R0
+w1599396722
+8C:/Users/dqx18/Desktop/uart/simulation/modelsim/uart_rx.vt
+FC:/Users/dqx18/Desktop/uart/simulation/modelsim/uart_rx.vt
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1599921798.850000
+!s107 C:/Users/dqx18/Desktop/uart/simulation/modelsim/uart_rx.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dqx18/Desktop/uart/simulation/modelsim|C:/Users/dqx18/Desktop/uart/simulation/modelsim/uart_rx.vt|
+!i113 0
+R4
+!s92 -vlog01compat -work work +incdir+C:/Users/dqx18/Desktop/uart/simulation/modelsim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

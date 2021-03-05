@@ -1,0 +1,19 @@
+
+18650锂电池 3.7V XH2.54
+12V锂电池组：https://item.taobao.com/item.htm?id=42645824480&ali_refid=a3_430582_1006:1108385165:N:eQ2v5mYCtwdwub5eHH5wjg3IRC%2F6M6Wr:8dc0ff784ae78a4593f58667e8632d19&ali_trackid=1_8dc0ff784ae78a4593f58667e8632d19&spm=a230r.1.14.6#detail
+母头：https://detail.tmall.com/item.htm?id=581245350382&spm=a220o.1000855.1998099587.7.3d0333eceBFpgr&skuId=4048241758461
+充电：https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-16880385094.11.4e4b57bd6GjYPA&id=562560852357
+转接充电口：同上
+
+BMP180 
+光敏电阻传感器
+加热器
+DHT11 湿度
+
+贴片转直插：
+https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.16.63e244a4qh7P0f&id=45447934814&skuId=91474779509&areaId=440800&user_id=2208586675&cat_id=2&is_b=1&rn=51f0f256208403833c7b94cbecc86709
+
+400w电阻丝
+https://detail.tmall.com/item.htm?spm=a230r.1.14.16.2c047a4djxflCG&id=621834517056&ns=1&abbucket=15&skuId=4568874639162
+
+1.5mH电感 22uF电容 73.2kΩ电阻

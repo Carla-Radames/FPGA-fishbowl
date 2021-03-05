@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Sep 04 09:40:48 2020
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : IrDA
+Top-level Entity Name : irda
+Family : Cyclone II
+Total logic elements : 120
+    Total combinational functions : 116
+    Dedicated logic registers : 63
+Total registers : 63
+Total pins : 16
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

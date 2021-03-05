@@ -1,0 +1,41 @@
+
+`timescale 1 ps/ 1 ps
+module irda_out_vlg_tst();
+reg [3:0] Iin;
+reg clk;
+reg rst_n; 
+reg Iin_vld;                                            
+wire Iout;
+                          
+irda_out i1 (
+	.Iin(Iin),
+	.Iout(Iout),
+	.clk(clk),
+	.rst_n(rst_n),
+	.Iin_vld(Iin_vld)
+);
+
+parameter CLK=1;
+initial                                                
+begin  
+	rst_n<=0;
+   clk<=0;
+	Iin_vld<=0;
+	Iin<=4'b0000;//此程序会耐心地等待新信号到达前前一条信号发完
+	#100 rst_n<=1;
+end  
+
+always #CLK clk=~clk;                                                  
+always
+begin
+	#1300 Iin=4'b1011;
+end 
+
+always
+begin
+	#2000 Iin_vld<=1;
+	#5 	Iin_vld<=0;
+end
+                                                  
+endmodule
+

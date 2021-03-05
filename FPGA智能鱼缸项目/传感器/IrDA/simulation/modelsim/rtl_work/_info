@@ -1,0 +1,123 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dqx18/Desktop/IrDA/simulation/modelsim
+T_opt
+!s110 1599183675
+Ve18Yo]`9=zenDTY>O?MSN2
+04 12 4 work irda_vlg_tst fast 0
+=1-7470fd4e7fcd-5f519b3a-3bc-6fe8
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+virda
+Z1 !s110 1599183673
+!i10b 1
+!s100 [ke]c4T]72D5Im;e92@8h3
+I[aY0kTLIl_L7`HS_aG@@33
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1599183291
+8C:/Users/dqx18/Desktop/IrDA/irda.v
+FC:/Users/dqx18/Desktop/IrDA/irda.v
+L0 19
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1599183673.233000
+!s107 C:/Users/dqx18/Desktop/IrDA/irda.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dqx18/Desktop/IrDA|C:/Users/dqx18/Desktop/IrDA/irda.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/dqx18/Desktop/IrDA -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+virda_out
+R1
+!i10b 1
+!s100 ^HMI;6RV1[I6mkR9n9<0Q0
+I12T8^b@Ba302>=XzJ5fgT2
+R2
+R0
+w1599182129
+8C:/Users/dqx18/Desktop/IrDA/irda_out.v
+FC:/Users/dqx18/Desktop/IrDA/irda_out.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1599183673.487000
+!s107 C:/Users/dqx18/Desktop/IrDA/irda_out.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dqx18/Desktop/IrDA|C:/Users/dqx18/Desktop/IrDA/irda_out.v|
+!i113 0
+R4
+R5
+virda_vlg_tst
+!s110 1599183674
+!i10b 1
+!s100 8mUB[;S10m?I[S]QDI?MN1
+IeO>7:=@J`EQR_9L?M3Q0@0
+R2
+R0
+w1599183634
+8C:/Users/dqx18/Desktop/IrDA/simulation/modelsim/irda.vt
+FC:/Users/dqx18/Desktop/IrDA/simulation/modelsim/irda.vt
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1599183674.157000
+!s107 C:/Users/dqx18/Desktop/IrDA/simulation/modelsim/irda.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dqx18/Desktop/IrDA/simulation/modelsim|C:/Users/dqx18/Desktop/IrDA/simulation/modelsim/irda.vt|
+!i113 0
+R4
+!s92 -vlog01compat -work work +incdir+C:/Users/dqx18/Desktop/IrDA/simulation/modelsim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vkeyboard
+R1
+!i10b 1
+!s100 9b4Wn07ZgC8l[I3EIDW[72
+IJa;9g?RG<z7[F::YXSNDa2
+R2
+R0
+w1599176596
+8C:/Users/dqx18/Desktop/IrDA/keyboard.v
+FC:/Users/dqx18/Desktop/IrDA/keyboard.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1599183673.956000
+!s107 C:/Users/dqx18/Desktop/IrDA/keyboard.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dqx18/Desktop/IrDA|C:/Users/dqx18/Desktop/IrDA/keyboard.v|
+!i113 0
+R4
+R5
+vpulser
+R1
+!i10b 1
+!s100 01L^ABVZcjgZ[d9;5_JHb2
+IE:S8ZM?G=TiONz]cPUanZ2
+R2
+R0
+w1599182165
+8C:/Users/dqx18/Desktop/IrDA/pulser.v
+FC:/Users/dqx18/Desktop/IrDA/pulser.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1599183673.742000
+!s107 C:/Users/dqx18/Desktop/IrDA/pulser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dqx18/Desktop/IrDA|C:/Users/dqx18/Desktop/IrDA/pulser.v|
+!i113 0
+R4
+R5

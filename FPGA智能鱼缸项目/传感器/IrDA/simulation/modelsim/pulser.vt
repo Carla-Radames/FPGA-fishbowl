@@ -1,0 +1,30 @@
+
+
+`timescale 1 ps/ 1 ps
+module pulser_vlg_tst();
+reg clk;
+reg [3:0] ins;
+reg push;                                             
+wire pulse;
+                         
+pulser i1 (
+	.clk(clk),
+	.ins(ins),
+	.pulse(pulse),
+	.push(push)
+);
+initial                                                
+begin                                                  
+	push<=0;
+	ins<=4'b1011;
+	clk<=0;
+	#1000 push<=1;
+	#600 push<=0;
+end
+                                                    
+always                                                                 
+begin                                                  
+	#1 clk<=~clk;
+end                                                    
+endmodule
+

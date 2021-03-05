@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dqx18/Desktop/LCD1602/simulation/modelsim
+T_opt
+!s110 1599184569
+V4`nH5D3:ZC_Moab2Ceb?O1
+04 11 4 work LCD_vlg_tst fast 0
+=1-7470fd4e7fcd-5f519eb9-c2-210c
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+vLCD
+Z1 !s110 1599184568
+!i10b 1
+!s100 mdSZZV<fnA0SYD[FmafPL2
+If[dR;knl=7hg^12S@]T4=2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1599093065
+8C:/Users/dqx18/Desktop/LCD1602/LCD.v
+FC:/Users/dqx18/Desktop/LCD1602/LCD.v
+L0 1
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1599184568.099000
+!s107 C:/Users/dqx18/Desktop/LCD1602/LCD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dqx18/Desktop/LCD1602|C:/Users/dqx18/Desktop/LCD1602/LCD.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+C:/Users/dqx18/Desktop/LCD1602 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@l@c@d
+vLCD_vlg_tst
+R1
+!i10b 1
+!s100 ^]D>4c[=g`no:<hEKZ5fU1
+IG3VKEnFmh^GdcD60J5MbE0
+R2
+R0
+w1599092200
+8C:/Users/dqx18/Desktop/LCD1602/simulation/modelsim/LCD.vt
+FC:/Users/dqx18/Desktop/LCD1602/simulation/modelsim/LCD.vt
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1599184568.384000
+!s107 C:/Users/dqx18/Desktop/LCD1602/simulation/modelsim/LCD.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dqx18/Desktop/LCD1602/simulation/modelsim|C:/Users/dqx18/Desktop/LCD1602/simulation/modelsim/LCD.vt|
+!i113 0
+R4
+!s92 -vlog01compat -work work +incdir+C:/Users/dqx18/Desktop/LCD1602/simulation/modelsim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@l@c@d_vlg_tst
